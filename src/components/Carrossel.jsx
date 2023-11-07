@@ -7,35 +7,35 @@ function Carrossel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://static.todamateria.com.br/upload/15/85/1585671025ic5e836b71dacfe-og.jpg?class=ogImageWide"
+          src="https://images.pexels.com/photos/4405239/pexels-photo-4405239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Book Haven</h5>
+          <p>Sua livraria online preferida</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          src="https://images.pexels.com/photos/18797401/pexels-photo-18797401/free-photo-of-abundancia-fartura-riqueza-vista-traseira.jpeg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Book Haven</h5>
+          <p>Sua livraria online preferida</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src="https://images.pexels.com/photos/18797448/pexels-photo-18797448/free-photo-of-abundancia-fartura-riqueza-preto-e-branco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5>Book Haven</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Sua livraria online preferida
           </p>
         </Carousel.Caption>
       </Carousel.Item>

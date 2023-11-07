@@ -1,13 +1,13 @@
-/*nav{
-    background-color: black;
-    color: white;
-    font-weight: bolder;
+.col{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    background-color: #DC3545;
 }
 
-.link{
+.login-cadastro{
     display: flex;
-    justify-content: space-between;
+    align-content: flex-end;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
 }

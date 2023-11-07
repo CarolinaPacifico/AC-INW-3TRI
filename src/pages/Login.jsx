@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar';
 import LoginComponente from '../components/Login-componente';
+import Footer from '../components/Footer'
 
 function Home() {
     
@@ -7,6 +8,7 @@ function Home() {
       <>
         <NavBar/>
         <LoginComponente/>
+        <Footer/>
       </>
     )
   }

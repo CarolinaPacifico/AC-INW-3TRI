@@ -3,20 +3,35 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LOGO from '../img/LOGO.png'
-//import '../css/NavBar.css';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import '../css/NavBar.css'
 
 function NavBar() {
   return (
     <>
-     <Navbar bg="dark" data-bs-theme="dark">
+
+    <div className='img-div'>
+        <Col>
+          <Image src={LOGO} rounded width={100} height={100}/>
+        </Col>
+      </div>
+
+     <Navbar bg="danger" data-bs-theme="danger">
         <Container>
-          <Navbar.Brand href={LOGO} width='30' height='30'></Navbar.Brand>
+          <Navbar.Brand>Book Haven</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Cadastro">Cadastro</Nav.Link>
-            <Nav.Link href="/Login">Login</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link> 
           </Nav>
         </Container>
+      
+      <div className='login-cadastro'>
+            <Nav.Link href="/Cadastro">Cadastro</Nav.Link>
+      </div>
+
+      <div className='login-cadastro'>
+        <Nav.Link href="/Login">Entrar</Nav.Link>
+      </div>
       </Navbar>
     </>
   );
