@@ -12,9 +12,9 @@ function NavBar() {
         <Container>
           <Navbar.Brand href={LOGO} width='30' height='30'></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Contato</Nav.Link>
-            <Nav.Link href="#pricing">Cadastro</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Cadastro">Cadastro</Nav.Link>
+            <Nav.Link href="/Login">Login</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
